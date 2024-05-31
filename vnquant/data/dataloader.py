@@ -11,8 +11,6 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 import pandas as pd
 from vnquant import configs
 from vnquant.data.loader import DataLoaderVND, DataLoaderCAFE
-from vnquant.log.logging import logger
-
 
 URL_VND = configs.URL_VND
 API_VNDIRECT = configs.API_VNDIRECT
